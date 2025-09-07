@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Hide Element by ID",
+    "version": "1.0",
+    "description": "Hides an HTML element with a specific ID after the page loads.",
+    "permissions": ["scripting"],
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"],
+        "run_at": "document_idle"
+      }
+    ]
+  }
