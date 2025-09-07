@@ -1,5 +1,5 @@
 // ID of the element to hide
-const elementId = 'target-id';
+const elementId = 'navbar-main';
 
 function hideElementById(id) {
   const el = document.getElementById(id);
